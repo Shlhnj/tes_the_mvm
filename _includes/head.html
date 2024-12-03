@@ -65,4 +65,15 @@
 	{% if page.layout == 'post' %}
 	<link rel="stylesheet" href="{{ relativebase }}assets/css/highlighter/{{ site.highlight_theme }}.css">
 	{% endif %}
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3YKX9EF7ES"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3YKX9EF7ES');
+</script>
+	
 </head>
